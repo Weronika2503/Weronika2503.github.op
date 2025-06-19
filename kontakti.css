@@ -1,0 +1,341 @@
+*{
+    margin: 0;
+    padding: 0; 
+    box-sizing: border-box;
+}
+header{
+    display: flex;
+    background-color: transparent;
+    justify-content: space-between;
+    padding: 20px 100px;
+    align-items: center;
+}
+header ul {
+    display: flex;
+    gap: 50px ;
+    align-items: center;
+    list-style: none;
+}
+header ul li a{
+    text-decoration: none;
+    color: black;
+}
+.header_end{
+    display: flex;
+    gap: 30px;
+    align-items: center;
+}
+.header_icons{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+.header_end button{
+    padding: 20px 20px;
+    font-size: 15px;
+    color: white;
+    background-color: rgba(59, 146, 84, 1);
+    border: none;
+    border-radius: 10px;
+}
+.boxs1_end_card1{
+    width: 380px;
+    height: 545px;
+    top: 282px;
+    left: 166px;
+    border-radius: 10px;
+    background-color: rgba(59, 146, 84, 1);
+}
+.boxs1_end_card1_end{
+    padding: 30px;
+}
+.boxs1_end_card1_end h1{
+    color: white;
+    margin-top: 30px;
+}
+.boxs1_end_card1_end p{
+    color: white;
+    margin-top: 15px;
+}
+.boxs1_end_icons{
+
+    display: flex;
+    margin-top: 30PX;
+    gap: 10px;
+}
+.boxs1_end_icons i{
+    width: 48px;
+    height: 48px;
+    font-size: 25px;
+    gap: 10px;
+    border-radius: 10px;
+    padding-top: 12px;
+    padding-right: 30px;
+    padding-bottom: 12px;
+    padding-left: 15px;
+    background-color: rgba(255, 255, 255, 1);
+}
+.pp2{
+    color: white;
+}
+.boxs1_end_cards{
+    margin-top: 40px;
+    display: flex;
+    gap: 20px;
+}
+.boxs1{
+    display: flex;
+    justify-content: center;
+    margin-top: 90px;
+}
+.boxs2_h1{
+    display: flex;
+    gap: 729px;
+}
+.boxs2{
+    margin-top: 100px;
+}
+.boxs2_h1_icon{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+.boxs2_left{
+    background-color: rgba(201, 218, 206, 1);
+    color: rgba(133, 159, 141, 1);
+    border-radius: 10px;
+    padding: 16px 20px;
+    gap: 10px;
+    font-size: 20px;
+}
+.boxs2_right{
+    background-color: rgba(59, 146, 84, 1);
+    color: rgba(255, 255, 255, 1) ;
+    border-radius: 10px;
+    padding: 16px 20px;
+    gap: 10px;
+    font-size: 20px;
+}
+.boxs2_cards{
+    display: flex;
+    gap: 20px;
+    margin-top: 40px;
+}
+.boxs2{
+    display: flex;
+    justify-content: center;
+
+}
+.boxs3{
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+    padding: 20px 150px;
+}
+.boxs3_end{
+    padding: 30px 50px;
+    background: linear-gradient( to right, rgba(240, 231, 217, 1) 60%,rgba(240, 231, 217, 0.5)), url(./img/Rectangle\ 35.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    width: 100%;
+    background-position: right;
+    border-radius: 10px;
+}
+.boxs3_end_inputs{
+    margin-top: 50px;
+}
+.boxs3_end_inputs input{
+    border: none;
+    width: 327.5;
+    height: 55;
+    gap: 20px;
+    border-radius: 10px;
+    padding-top: 14px;
+    padding-right: 15px;
+    padding-bottom: 14px;
+    padding-left: 15px;
+    border-width: 1px;
+    background-color: rgba(255, 255, 255, 1);
+}
+.boxs3_end h1{
+    font-size: 45px;
+    line-height: 39.2px;
+    letter-spacing: 0%;
+}
+.btn3{
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    margin-top: 30px;
+    width: 390px;
+    height: 50px;
+    padding: 20px;
+    font-size: 20px;
+    color: rgba(234, 245, 237, 1);
+    background-color: rgba(42, 121, 65, 1);
+    border: none;
+    border-radius: 10px;
+}
+.boxs4{
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+}
+.boxs4{
+    margin-left: 160px;
+    margin-top: 100px;
+    justify-content: center;
+    gap: 150px;
+    display: flex;
+    width: 1180px;
+    height: 200px;
+    border-radius: 10px;
+    background: linear-gradient(91.65deg, #24733B 0%, #429058 19.79%, #2E7B44 31.77%, #44945B 46.88%, #2E7B44 58.33%, #408F57 71.35%, #18622E 100%);
+}
+.boxs4_img{
+    margin-top: 40px;
+}
+.boxs4_t{
+    text-align: center;
+    margin-top: 40px;
+    color: white;
+}
+.btn4{
+    display: flex;
+    align-items: center;
+    margin-top: 70px;
+    height: 50px;
+    padding: 20px;
+    font-size: 20px;
+    color: rgba(42, 121, 65, 1);
+    background-color: rgba(234, 245, 237, 1);
+    border: none;
+    border-radius: 10px;
+}
+.boxs11{
+    width: 100%;
+    height: 620px;
+    background-color: rgba(234, 245, 237, 1);
+    margin-top: 100px;
+    padding: 20px 100px;
+}
+.box11{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.box11_1{
+    width: 580px;
+    height: 430px;
+    border-radius: 10px;
+    background-color: rgba(255, 255, 255, 1);
+}
+.box11_2{
+    width: 580px;
+    height: 430px;
+    border-radius: 10px;
+    background-color: rgba(255, 255, 255, 1);
+}
+.box11_1_ava{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+.box11{
+    margin-top: 50px;
+    gap: 50px;
+}
+.box11_1{
+    padding: 20px 30px;
+}
+.box11_2{
+    padding: 20px 30px;
+}
+.box11_1_t2{
+    margin-top: 30px;
+    font-size: 20px;
+}
+.boxs7_h1{
+    display: flex;
+    justify-content: space-between;
+}
+.boxs5_text{
+    width: 580px;
+    height: 383px;
+    gap: 20px;
+}
+.boxs5_text p{
+    margin-top: 20px;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 27px;
+    letter-spacing: 0%;
+    color: rgba(81, 87, 83, 1);
+}
+.boxs5{
+    display: flex;
+    margin-top: 100px;
+    justify-content: center;
+    gap: 20px;
+}
+.ends{
+    background-color: rgba(248, 248, 248, 1);
+    height: 350px;
+    display: flex;
+    margin-top: 100px;
+    gap: 130px;
+    justify-content: center;
+}
+.end_t1 p{
+    margin-top: 15px;
+}
+.location{
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    margin-top: 20px;
+}
+.phone{
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    margin-top: 20px;
+}
+.emile{
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    margin-top: 20px;
+}
+.vk{
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    margin-top: 20px;
+}
+.telegram{
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    margin-top: 20px;
+}
+.whatsapp{
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    margin-top: 20px;
+}
+.instagram{
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    margin-top: 20px;
+}
+.hhh1{
+    color: rgba(42, 121, 65, 1);
+}
+.end{
+    margin-top: 50px;
+    display: flex;
+    gap: 150px;
+}
